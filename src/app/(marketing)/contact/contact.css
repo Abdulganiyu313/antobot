@@ -1,0 +1,137 @@
+.contact-container {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.contact-header {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.contact-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111418;
+  margin-bottom: 0.5rem;
+}
+
+.contact-header p {
+  font-size: 0.95rem;
+  color: #637188;
+  line-height: 1.5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #111418;
+}
+
+.form-group input,
+.form-group textarea {
+  border: 1px solid #dcdfe5;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #111418;
+  background-color: #fff;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2c74e8;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(44, 116, 232, 0.2);
+}
+
+.submit-btn {
+  align-self: flex-end;
+  background-color: #2c74e8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #1f5dc2;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 420px) {
+  .contact-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .submit-btn {
+    width: 100%;
+    align-self: stretch;
+  }
+}
+/* --- existing styles unchanged above --- */
+
+.toast {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: fadeInOut 3s ease forwards;
+  z-index: 1000;
+}
+
+.success-toast {
+  background-color: #2c74e8;
+}
+
+/* Animation for toast fade in/out */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+/* Mobile tweaks */
+@media (max-width: 420px) {
+  .toast {
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    text-align: center;
+  }
+}

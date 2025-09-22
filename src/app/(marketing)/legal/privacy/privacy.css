@@ -1,0 +1,27 @@
+.privacy {
+  padding: 4rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.privacy-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-container .intro {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.privacy-container h2 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.privacy-container p {
+  color: #374151;
+  line-height: 1.6;
+}

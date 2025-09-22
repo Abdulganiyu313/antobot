@@ -1,0 +1,37 @@
+.faq {
+  padding: 4rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-container {
+  text-align: center;
+}
+
+.faq-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.faq-container p {
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.faq-list {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faq-item h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+.faq-item p {
+  color: #374151;
+  line-height: 1.6;
+}

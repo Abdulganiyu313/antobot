@@ -1,0 +1,137 @@
+.ps {
+  background: #fff;
+  min-height: 100vh;
+}
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Header */
+.ps__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f0f2f4;
+  padding: 12px 20px;
+}
+.ps__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #111418;
+}
+.ps__logo {
+  width: 16px;
+  height: 16px;
+  background: #111418;
+  mask: radial-gradient(circle at 40% 40%, #000 55%, transparent 56%);
+  -webkit-mask: radial-gradient(circle at 40% 40%, #000 55%, transparent 56%);
+}
+.ps__brandName {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Hero */
+.ps__hero {
+  text-align: center;
+  padding: 40px 0 12px;
+}
+.ps__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  background: #ecfdf5;
+  color: #047857;
+  border: 1px solid #a7f3d0;
+}
+.ps__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111418;
+  margin: 8px 0;
+}
+.ps__sub {
+  color: #4b5563;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 580px;
+}
+
+/* Actions */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn--primary {
+  background: #2c74e8;
+  color: #fff;
+}
+.btn--primary:hover {
+  background: #1d4ed8;
+}
+.btn--ghost {
+  background: #f0f2f4;
+  color: #111418;
+}
+.ps__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+.ps__note {
+  font-size: 14px;
+  color: #64748b;
+  margin: 10px 0 0;
+}
+.ps__note a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Next steps */
+.ps__next {
+  padding: 24px 0 56px;
+}
+.ps__nextTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111418;
+  margin: 0 0 10px;
+}
+.ps__steps {
+  margin: 0;
+  padding-left: 18px;
+  color: #374151;
+  line-height: 1.7;
+}
+
+/* Responsive */
+@media (max-width: 420px) {
+  .ps__title {
+    font-size: 26px;
+  }
+  .btn--primary,
+  .btn--ghost {
+    width: 100%;
+  }
+}

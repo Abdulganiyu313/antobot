@@ -1,0 +1,124 @@
+.signup-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #111418;
+}
+
+.signup-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #111418;
+}
+
+.form-group input {
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: #f0f2f4;
+  color: #111418;
+}
+
+.form-group input:focus {
+  outline: 2px solid #2c74e8;
+  background-color: #fff;
+}
+
+.password-hint {
+  font-size: 0.85rem;
+  color: #637188;
+  margin-top: -0.5rem;
+}
+
+.forgot-link {
+  font-size: 0.9rem;
+  color: #2c74e8;
+  text-decoration: underline;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: #2c74e8;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #1f5dc2;
+}
+
+.google-btn {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  background-color: #f0f2f4;
+  color: #111418;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.google-btn:hover {
+  background-color: #e2e6eb;
+}
+
+.signin-link {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #637188;
+  text-align: center;
+}
+
+.signin-link a {
+  color: #2c74e8;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 420px) {
+  .signup-container {
+    padding: 2rem 1rem;
+  }
+
+  .signup-title {
+    font-size: 1.5rem;
+  }
+}
