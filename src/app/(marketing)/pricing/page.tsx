@@ -141,7 +141,13 @@ export default function PricingPage() {
       {/* FAQ */}
       <section className="faq">
         <div className="container">
-          <h2 className="headline headline--center">Frequently asked</h2>
+          <h2 className="headline headline--center">
+            Frequently asked questions
+          </h2>
+          <p className="faq__intro">
+            Answers to common questions about AntoBot’s pricing and
+            subscriptions.
+          </p>
 
           <div className="faq__accordion">
             <details className="faq__item">
@@ -190,7 +196,7 @@ export default function PricingPage() {
               </summary>
               <div className="faq__answer">
                 You can cancel anytime. Access continues until the end of the
-                current billing period—no partial refunds for remaining time.
+                current billing period — no partial refunds for remaining time.
               </div>
             </details>
           </div>
