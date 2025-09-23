@@ -4,6 +4,8 @@ import React from "react";
 import Link from "next/link";
 import "./home.css";
 
+export const dynamic = "force-dynamic";
+
 export default function HomePage() {
   return (
     <main className="home-container">
