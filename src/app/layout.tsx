@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "AntoBot",
   description: "Automated trading, simplified.",
   icons: {
-    icon: "/public/favicon_io/favicon.ico",
+    icon: "/public/images/faviconio-logo/favicon.jpg",
   },
 };
 

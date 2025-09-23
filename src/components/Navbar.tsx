@@ -14,10 +14,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="logo">
           <Image
-            src="/images/faviconio-logo/logo.png"
+            src="/images/faviconio-logo/logo.jpg"
             alt="AntoBot logo"
-            width={45}
-            height={45}
+            width={50}
+            height={50}
             priority
           />
           <span className="logo-text">AntoBot</span>
