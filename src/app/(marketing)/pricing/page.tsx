@@ -3,6 +3,8 @@
 const STARTER_LINK = process.env.NEXT_PUBLIC_SQUARE_LINK_STARTER || "#";
 const PRO_LINK = process.env.NEXT_PUBLIC_SQUARE_LINK_PRO || "#";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Pricing — AntoBot",
   description: "Transparent CAD pricing, secured by Square.",
